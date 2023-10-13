@@ -4,8 +4,9 @@ from problems.day_001 import run
 test_data = [
     ([10, 15, 3, 7], 17, True),
     ([10, 15, 3, 7], 15, False),
-    ([10, 15, 3, 7], 1, False),
-    ([10, 15, 3, 7], 0, False),
+    ([10, 15, 3, 7], 9, False),
+    ([0, 1, 2, 3], 2, True),
+    ([-1, -2, -3, -4], -3, True),
 ]
 
 
