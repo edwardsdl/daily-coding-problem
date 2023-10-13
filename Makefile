@@ -14,5 +14,5 @@ install : venv/bin/activate
 	venv/bin/pip install --upgrade setuptools
 	venv/bin/pip install -r requirements.txt
 
-requirements.txt :
+requirements.txt : venv/bin/activate
 	venv/bin/pip freeze > requirements.txt
